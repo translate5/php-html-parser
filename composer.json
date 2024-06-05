@@ -12,7 +12,7 @@
     ],
     "repositories" : [
         {
-            "_README" : "A Fork of the paquettg/php-html-parser PHP HTML-parser to be able to support newer PHP versions",
+            "_README" : "A Fork of the paquettg/string-encoder PHP HTML-parser to be able to support newer PHP versions",
             "type" : "git",
             "url" : "https://github.com/translate5/string-encoder/"
         }
