@@ -1,5 +1,6 @@
 {
     "name": "translate5/php-html-parser",
+    "type": "library",
     "description": "A Fork of the paquettg/php-html-parser PHP HTML-parser to be able to support newer PHP versions",
     "keywords": ["php", "html", "dom", "parser", "tranlate5"],
     "license": "MIT",
