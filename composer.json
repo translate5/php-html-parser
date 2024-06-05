@@ -10,12 +10,19 @@
             "email": "axel@mittagqi.com"
         }
     ],
+    "repositories" : [
+        {
+            "_README" : "A Fork of the paquettg/php-html-parser PHP HTML-parser to be able to support newer PHP versions",
+            "type" : "git",
+            "url" : "https://github.com/translate5/string-encoder/"
+        }
+    ],
     "require": {
         "php": ">=8.1.0",
         "ext-mbstring": "*",
         "ext-zlib": "*",
         "ext-curl": "*",
-        "paquettg/string-encode": "~1.0.0",
+        "translate5/string-encoder": "dev-master",
         "php-http/httplug": "^2.1",
         "guzzlehttp/guzzle": "^7.0",
         "guzzlehttp/psr7": "^1.6",
