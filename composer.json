@@ -24,8 +24,8 @@
         "ext-curl": "*",
         "translate5/string-encoder": "dev-master",
         "php-http/httplug": "^2.1",
-        "guzzlehttp/guzzle": "^7.0",
-        "guzzlehttp/psr7": "^1.6",
+        "guzzlehttp/guzzle": "^7.8",
+        "guzzlehttp/psr7": "^2.7",
         "myclabs/php-enum": "^1.7"
     },
     "require-dev": {
