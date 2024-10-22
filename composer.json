@@ -22,7 +22,7 @@
         "ext-mbstring": "*",
         "ext-zlib": "*",
         "ext-curl": "*",
-        "translate5/string-encoder": "dev-master",
+        "ext-iconv": "*",
         "php-http/httplug": "^2.1",
         "guzzlehttp/guzzle": "^7.8",
         "guzzlehttp/psr7": "^2.7",

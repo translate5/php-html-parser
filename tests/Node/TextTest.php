@@ -6,7 +6,7 @@ use PHPHtmlParser\Dom;
 use PHPHtmlParser\Dom\Node\TextNode;
 use PHPHtmlParser\Options;
 use PHPUnit\Framework\TestCase;
-use stringEncode\Encode;
+use PHPHtmlParser\Encode;
 
 class NodeTextTest extends TestCase
 {

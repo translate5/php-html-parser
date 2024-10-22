@@ -17,7 +17,7 @@ use PHPHtmlParser\Exceptions\ContentLengthException;
 use PHPHtmlParser\Exceptions\LogicalException;
 use PHPHtmlParser\Exceptions\StrictException;
 use PHPHtmlParser\Options;
-use stringEncode\Encode;
+use PHPHtmlParser\Encode;
 
 class Parser implements ParserInterface
 {

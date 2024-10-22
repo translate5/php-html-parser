@@ -12,7 +12,7 @@ use PHPHtmlParser\Exceptions\ParentNotFoundException;
 use PHPHtmlParser\Exceptions\Tag\AttributeNotFoundException;
 use PHPHtmlParser\Finder;
 use PHPHtmlParser\Selector\Selector;
-use stringEncode\Encode;
+use PHPHtmlParser\Encode;
 
 /**
  * Dom node object.

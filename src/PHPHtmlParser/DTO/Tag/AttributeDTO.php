@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace PHPHtmlParser\DTO\Tag;
 
-use stringEncode\Encode;
-use stringEncode\Exception;
+use Exception;
+use PHPHtmlParser\Encode;
 
 final class AttributeDTO
 {

@@ -8,7 +8,7 @@ use PHPHtmlParser\Dom\Tag;
 use PHPHtmlParser\Exceptions\ChildNotFoundException;
 use PHPHtmlParser\Exceptions\CircularException;
 use PHPHtmlParser\Exceptions\LogicalException;
-use stringEncode\Encode;
+use PHPHtmlParser\Encode;
 
 /**
  * Inner node of the html tree, might have children.

@@ -6,7 +6,7 @@ namespace PHPHtmlParser\Dom;
 
 use PHPHtmlParser\DTO\Tag\AttributeDTO;
 use PHPHtmlParser\Exceptions\Tag\AttributeNotFoundException;
-use stringEncode\Encode;
+use PHPHtmlParser\Encode;
 
 /**
  * Class Tag.
@@ -263,7 +263,7 @@ class Tag
     /**
      * Returns all attributes of this tag.
      *
-     * @throws \stringEncode\Exception
+     * @throws \Exception
      *
      * @return AttributeDTO[]
      */
@@ -286,7 +286,7 @@ class Tag
      * Returns an attribute by the key.
      *
      * @throws AttributeNotFoundException
-     * @throws \stringEncode\Exception
+     * @throws \Exception
      */
     public function getAttribute(string $key): AttributeDTO
     {
